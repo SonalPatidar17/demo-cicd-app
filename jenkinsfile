@@ -22,7 +22,7 @@ pipeline {
       steps {
         echo 'Deploying only because of code commit...'
         echo 'Deploying to  dev environment....'
-        bat 'mvn package deploy -DmuleDeploy -DworkerType=Micro -Dworkers=1 -Dregion=us-west-2'
+        bat 'mvn clean deploy -DmuleDeploy'
       }
 	  
 	}
