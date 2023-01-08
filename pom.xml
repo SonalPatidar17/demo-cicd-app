@@ -34,7 +34,7 @@
 				      <uri>https://anypoint.mulesoft.com</uri>
 				      <provider>MC</provider>
 				      <environment>Sandbox</environment>
-				      <target>shared-space</target>
+				      <target>shared space</target>
 				      <muleVersion>4.4.0</muleVersion>
 				      <username>sonalpatidar30Dec</username>
 				      <password>SonalMule@123</password>
