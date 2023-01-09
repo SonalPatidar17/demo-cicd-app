@@ -34,7 +34,7 @@
 				      <uri>https://anypoint.mulesoft.com</uri>
 				      <provider>MC</provider>
 				      <environment>Sandbox</environment>
-				      <target>us-west-2</target>
+				      <target>us-east-1</target>
 				      <muleVersion>4.4.0</muleVersion>
 				      <username>sonalpatidar30Dec</username>
 				      <password>SonalMule@123</password>
@@ -113,7 +113,7 @@
         <repository>
             <id>anypoint-exchange</id>
             <name>Anypoint Exchange</name>
-            <url>https://maven.anypoint.mulesoft.com/api/v3/Training/7916f5dd-d87e-4872-aa8d-99736dc556da/maven
+            <url>https://maven.eu1.anypoint.mulesoft.com/api/v3/organizations/7916f5dd-d87e-4872-aa8d-99736dc556da/maven
             </url>
             <layout>default</layout>
         </repository>
