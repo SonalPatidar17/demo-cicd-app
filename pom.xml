@@ -27,7 +27,7 @@
 			<plugin>
 				<groupId>org.mule.tools.maven</groupId>
 				<artifactId>mule-maven-plugin</artifactId>
-				<version>3.7.1</version>
+				<version>3.8.0</version>
 				<extensions>true</extensions>
 				<configuration>
 					<cloudhub2Deployment>
@@ -37,17 +37,16 @@
 						<target>Cloudhub-US-East-2</target>
 						<muleVersion>4.4.0</muleVersion>
 						<username>sonalpatidar30Dec</username>
-      					<password>SonalMule@123</password>
+						<password>SonalMule@123</password>
 						<applicationName>cloudhub2-demo-cicd-app</applicationName>
 						<replicas>1</replicas>
 						<vCores>0.1</vCores>
 						<properties>
-  							<http.port>8081</http.port>
+							<http.port>8081</http.port>
 						</properties>
 						<secureProperties>
-  							<https.port>8082</https.port>
+							<https.port>8082</https.port>
 						</secureProperties>
-						
 					</cloudhub2Deployment>
 				</configuration>
 			</plugin>
@@ -88,7 +87,6 @@
 			<url>https://repository.mulesoft.org/releases/</url>
 			<layout>default</layout>
 		</repository>
-		
 	</repositories>
 
 	<pluginRepositories>
